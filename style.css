@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 320px;
+    width: 300px;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+}
+
+.player-one {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.player-two {
+    background-color: blue;
+    border-radius: 10px;
+}
+
